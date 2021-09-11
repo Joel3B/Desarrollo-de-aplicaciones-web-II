@@ -114,8 +114,8 @@ function imprimirId2(id: number | string) {
     }
 }
 
-imprimirId('id'); // El id es id
-imprimirId(100.99999); // El id es 100.99999
+imprimirId2('id'); // El id es id
+imprimirId2(100.99999); // El id es 100.99999
 
 // type assertions
 let algunValor: unknown = 'esto es un string';
