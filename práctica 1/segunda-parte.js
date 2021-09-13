@@ -163,7 +163,7 @@ var CajaDeNumero2 = { contenido: 100 };
 var CajaDeFecha2 = { contenido: new Date() };
 // array type
 var imprimirTareas = function (v) {
-    v.forEach(function () {
+    v.forEach(function (v) {
         console.log(v);
     });
 };

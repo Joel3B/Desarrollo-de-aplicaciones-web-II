@@ -328,7 +328,7 @@ let CajaDeFecha2: Caja4<Date> = { contenido: new Date() };
 
 // array type
 const imprimirTareas = (v: Array<string>) => {
-    v.forEach(() => {
+    v.forEach((v) => {
         console.log(v);
     });
 };
