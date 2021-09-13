@@ -89,8 +89,8 @@ function imprimirId2(id) {
         console.log("El id es " + id.toFixed(2));
     }
 }
-imprimirId('id'); // El id es id
-imprimirId(100.99999); // El id es 100.99999
+imprimirId2('id'); // El id es id
+imprimirId2(100.99999); // El id es 100.99999
 // type assertions
 var algunValor = 'esto es un string';
 var longitudDelString = algunValor.length;
